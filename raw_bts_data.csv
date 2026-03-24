@@ -1,0 +1,45 @@
+table_index,raw_text_left,raw_text_right
+2,Asia,Box Office
+2,"August 25-26, 2018BTSOlympic StadiumSeoul, South Korea","$8,524,15585,366 (100%)2 shows"
+2,"November 13-14, 2018BTSTokyo DomeTokyo, Japan","$9,276,59095,939 (100%)2 shows"
+2,"November 21-24, 2018BTSKyocera DomeOsaka, Japan","$10,601,063109,679 (100%)3 shows"
+2,"December 8-9, 2018BTSInternational Baseball StadiumTaoyuan City, Taiwan","$8,712,74850,144 (100%)2 shows"
+2,"January 12-13, 2019BTSNagoya DomeNagoya, Japan","$7,692,56279,621 (100%)2 shows"
+2,"January 19, 2019BTSNational StadiumSingapore, Singapore","$7,061,85439,946 (100%)1 show"
+2,"February 16-17, 2019BTSYahuoku! DomeFukuoka, Japan","$7,035,55772,801 (100%)2 shows"
+2,"March 20-24, 2019BTSAsiaWorld–ArenaHong Kong, Hong Kong","$9,025,86046,630 (100%)4 shows"
+2,"April 6-7, 2019BTSRajamangala StadiumBangkok, Thailand","$15,070,36068,900 (88.75%)2 shows"
+2,Total,"Revenue:$83,000,749Tickets Sold:649,026Price:$127.89Reported Shows:20 / 20"
+3,North America,Box Office
+3,"September 5-9, 2018BTSStaples CenterLos Angeles, United States","$8,847,24056,220 (100%)4 shows"
+3,"September 12, 2018BTSOracle ArenaOakland, United States","$1,737,75010,743 (100%)1 show"
+3,"September 15-16, 2018BTSConvention CenterFort Worth, United States","$2,908,88017,452 (100%)2 shows"
+3,"September 20-23, 2018BTSFirstOntario CentreHamilton, Canada","$4,957,15535,574 (100%)3 shows"
+3,"September 28-29, 2018BTSPrudential CenterNewark, United States","$4,213,12025,236 (100%)2 shows"
+3,"October 2-3, 2018BTSUnited CenterChicago, United States","$4,264,96027,880 (100%)2 shows"
+3,"October 6, 2018BTSCiti FieldNew York, United States","$4,754,16834,327 (100%)1 show"
+3,Total,"Revenue:$31,683,273Tickets Sold:207,432Price:$152.74Reported Shows:15 / 15"
+4,Europe,Box Office
+4,"October 9-10, 2018BTSO2 ArenaLondon, England","$4,943,14031,475 (97.51%)2 shows"
+4,"October 13, 2018BTSZiggo DomeAmsterdam, Netherlands","$2,250,97013,893 (100%)1 show"
+4,"October 16-17, 2018BTSMercedes-Benz ArenaBerlin, Germany","$4,305,32924,384 (100%)2 shows"
+4,"October 19-20, 2018BTSAccorHotels ArenaParis, France","$4,579,17228,149 (100%)2 shows"
+4,Total,"Revenue:$16,078,611Tickets Sold:97,901Price:$164.23Reported Shows:7 / 7"
+5,North America,Box Office
+5,"May 4-5, 2019BTSRose BowlPasadena, United States","$16,557,515113,040 (100%)2 shows"
+5,"May 11-12, 2019BTSSoldier FieldChicago, United States","$13,345,79588,156 (100%)2 shows"
+5,"May 18-19, 2019BTSMetLife StadiumEast Rutherford, United States","$14,050,41098,574 (100%)2 shows"
+5,Total,"Revenue:$43,953,720Tickets Sold:299,770Price:$146.62Reported Shows:6 / 6"
+6,Latin America,Box Office
+6,"May 25-26, 2019BTSAllianz ParqueSao Paulo, Brazil","$7,712,31884,728 (100%)2 shows"
+6,Total,"Revenue:$7,712,318Tickets Sold:84,728Price:$92.91Reported Shows:2 / 2"
+7,Europe,Box Office
+7,"June 1-2, 2019BTSWembley StadiumLondon, England","$13,545,702114,583 (100%)2 shows"
+7,"June 7-8, 2019BTSStade de FranceParis, France","$13,728,598107,328 (100%)2 shows"
+7,Total,"Revenue:$27,274,300Tickets Sold:221,911Price:$121.35Reported Shows:4 / 4"
+8,Asia,Box Office
+8,"July 6-7, 2019BTSYanmar StadiumOsaka, Japan","$9,832,610101,554 (100%)2 shows"
+8,"July 13-14, 2019BTSShizuoka StadiumShizuoka, Japan","$10,486,317107,153 (100%)2 shows"
+8,"October 11, 2019BTSKing Fahd StadiumRiyadh, Saudi Arabia","$4,381,56031,899 (85.89%)1 show"
+8,"October 26-29, 2019BTSOlympic StadiumSeoul, South Korea","$12,109,026129,268 (100%)3 shows"
+8,Total,"Revenue:$36,809,513Tickets Sold:369,874Price:$99.52Reported Shows:8 / 8"

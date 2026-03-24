@@ -9,8 +9,8 @@ load_dotenv()
 class SpotifyDataEngine:
     def __init__(self):
         auth_manager = SpotifyClientCredentials(
-            client_id=os.getenv('435b153e416440b793f0d826ee012ce6'),
-            client_secret=os.getenv('d101d92af3e646e495305ea659620aeb')
+            client_id=os.getenv('SPOTIPY_CLIENT_ID'),
+            client_secret=os.getenv('SPOTIPY_CLIENT_SECRET')
         )
         self.sp = spotipy.Spotify(auth_manager=auth_manager)
 
@@ -33,5 +33,5 @@ class SpotifyDataEngine:
 if __name__ == "__main__":
     engine = SpotifyDataEngine()
     # Love Yourself: Answer Album ID
-    df = engine.get_tour_audio_features('292789c8-5535-492d-a25c-9f58803e027f', 'LY_2018')
+    df = engine.get_tour_audio_features('43wFM1HquliY3iwKWzPN4y', 'LY_2018')
     df.to_csv('spotify_signals.csv', index=False)

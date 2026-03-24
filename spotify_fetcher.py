@@ -9,8 +9,8 @@ load_dotenv()
 class SpotifyDataEngine:
     def __init__(self):
         auth_manager = SpotifyClientCredentials(
-            client_id=os.getenv('SPOTIPY_CLIENT_ID'),
-            client_secret=os.getenv('SPOTIPY_CLIENT_SECRET')
+            client_id=os.getenv('435b153e416440b793f0d826ee012ce6'),
+            client_secret=os.getenv('d101d92af3e646e495305ea659620aeb')
         )
         self.sp = spotipy.Spotify(auth_manager=auth_manager)
 

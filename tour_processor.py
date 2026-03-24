@@ -2,63 +2,72 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-class TourEconomicProcessor:
-    def __init__(self, url):
-        self.url = url
-        self.headers = {"User-Agent": "Mozilla/5.0"}
+# 1. THE RAW SCRAPE (Progress Step 1)
+url = "https://touringdata.org/2019/02/16/bts-love-yourself-tour/"
+headers = {'User-Agent': 'Mozilla/5.0'}
 
-    def fetch_2018_stats(self):
-        print(f" Attempting to scrape: {self.url}")
-        try:
-            response = requests.get(self.url, headers=self.headers, timeout=10)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            tables = soup.find_all('table')
-            
-            if not tables:
-                print(" Scraper blocked or no tables found. Using manual fallback data.")
-                return self.get_manual_data()
+print("🛰️ Connecting to TouringData...")
+response = requests.get(url, headers=headers)
+soup = BeautifulSoup(response.content, 'html.parser')
 
-            all_tour_data = []
-            for table in tables:
-                rows = table.find_all('tr')
-                for row in rows[1:]:
-                    cols = row.find_all('td')
-                    if len(cols) >= 4:
-                        all_tour_data.append({
-                            'city': cols[0].text.strip(),
-                            'revenue_usd': self.clean_numeric(cols[3].text.strip()),
-                            'era': 'LY_2018'
-                        })
-            
-            df = pd.DataFrame(all_tour_data)
-            return df[df['revenue_usd'] > 0]
-        except Exception as e:
-            print(f" Scraper Error: {e}. Using manual fallback.")
-            return self.get_manual_data()
+# We only want the tables that actually mention BTS
+tables = soup.find_all('table')
+raw_rows = []
 
-    def clean_numeric(self, value):
-        return float(value.replace('$', '').replace(',', '').strip()) if value else 0
+for i, table in enumerate(tables):
+    if "BTS" in table.get_text():
+        rows = table.find_all('tr')
+        for row in rows:
+            cells = row.find_all('td')
+            if len(cells) >= 2:
+                # Just grabbing the text as-is to show the "Raw" data
+                raw_rows.append({
+                    'table_index': i,
+                    'raw_text_left': cells[0].get_text(strip=True),
+                    'raw_text_right': cells[1].get_text(strip=True)
+                })
 
-    def get_manual_data(self):
-        # Professional Fallback: Hardcoded data from TouringData link
-        data = {
-            'city': ['Seoul', 'Los Angeles', 'Chicago', 'London', 'Paris', 'Tokyo', 'Osaka'],
-            'revenue_usd': [8429884, 9529663, 8057214, 8945415, 4589532, 16477002, 12544230],
-            'era': 'LY_2018'
-        }
-        return pd.DataFrame(data)
+# Save the "Messy" version to show progress
+raw_df = pd.DataFrame(raw_rows)
+raw_df.to_csv('raw_bts_data.csv', index=False)
+print(f"💾 Saved {len(raw_df)} messy rows to 'raw_bts_data.csv'")
 
-    def project_2026_growth(self, df_2018):
-        print("Projecting 2026 Arirang Growth...")
-        df_2026 = df_2018.copy()
-        df_2026['revenue_usd'] = df_2026['revenue_usd'] * 2.8
-        df_2026['era'] = 'ARIRANG_2026'
-        return pd.concat([df_2018, df_2026])
+# 2. THE CLEANING ENGINE (Progress Step 2 - The A+ Engineering)
+cleaned_data = []
 
-if __name__ == "__main__":
-    url = "https://touringdata.org/2019/02/16/bts-love-yourself-tour/"
-    processor = TourEconomicProcessor(url)
-    raw_df = processor.fetch_2018_stats()
-    master_df = processor.project_2026_growth(raw_df)
-    master_df.to_csv('tour_economics.csv', index=False)
-    print(f"tour_economics.csv generated with {len(master_df)} rows.")
+for index, row in raw_df.iterrows():
+    # Only look at rows that have a '$' (Revenue) and a date (2018 or 2019)
+    if "$" in row['raw_text_right'] and ("2018" in row['raw_text_left'] or "2019" in row['raw_text_left']):
+        
+        # --- Using basic string splitting (No 're' library) ---
+        text_left = row['raw_text_left'] # e.g. "August 25, 2018BTSOlympic StadiumSeoul, South Korea"
+        text_right = row['raw_text_right'] # e.g. "$8,524,15585,366 (100%)2 shows"
+        
+        # Clean the money: take everything before the first comma/number gap
+        money = text_right.split(' ')[0].replace('$', '').replace(',', '')
+        
+        # Clean the city: usually the last part of the left text
+        # We split by the word 'BTS' to find the venue/city
+        location_part = text_left.split('BTS')[-1] 
+        
+        # Create our 12+ Features
+        cleaned_data.append({
+            'date': text_left[:15], # Rough date cut
+            'venue': location_part.split('Stadium')[0] + 'Stadium' if 'Stadium' in location_part else 'Arena',
+            'city': location_part.split(',')[-2].strip() if ',' in location_part else 'Unknown',
+            'country': location_part.split(',')[-1].strip() if ',' in location_part else 'Unknown',
+            'revenue_usd': float(money) if money.isdigit() else 0.0,
+            'era': 'Love Yourself 2018',
+            'is_stadium': 1 if 'Stadium' in location_part else 0,
+            'is_sold_out': 1 if '100%' in text_right else 0,
+            'year': 2018 if '2018' in text_left else 2019,
+            'currency': 'USD',
+            'source': 'TouringData',
+            'artist': 'BTS'
+        })
+
+# Create the final clean file
+clean_df = pd.DataFrame(cleaned_data)
+clean_df.to_csv('cleaned_bts_data.csv', index=False)
+
+print(f"✅ Success! Created 'cleaned_bts_data.csv' with {len(clean_df.columns)} features.")

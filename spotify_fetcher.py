@@ -6,32 +6,52 @@ import pandas as pd
 
 load_dotenv()
 
-class SpotifyDataEngine:
-    def __init__(self):
-        auth_manager = SpotifyClientCredentials(
-            client_id=os.getenv('SPOTIPY_CLIENT_ID'),
-            client_secret=os.getenv('SPOTIPY_CLIENT_SECRET')
-        )
-        self.sp = spotipy.Spotify(auth_manager=auth_manager)
+auth_manager = SpotifyClientCredentials(
+    client_id=os.getenv("SPOTIPY_CLIENT_ID"),
+    client_secret=os.getenv("SPOTIPY_CLIENT_SECRET")
+    )
+sp = spotipy.Spotify(auth_manager=auth_manager)
 
-    def get_tour_audio_features(self, album_id, era_label):
-        print(f"Extracting audio signals for {era_label}...")
-        tracks = self.sp.album_tracks(album_id)['items']
-        data = []
-        for track in tracks:
-            f = self.sp.audio_features(track['id'])[0]
-            if f:
-                f.update({
-                    'track_name': track['name'],
-                    'era': era_label,
-                    'is_stadium_engineered': 1 if f['energy'] > 0.7 else 0
-                })
-                data.append(f)
-        return pd.DataFrame(data)
 
-# Test run for 2018 Baseline
-if __name__ == "__main__":
-    engine = SpotifyDataEngine()
-    # Love Yourself: Answer Album ID
-    df = engine.get_tour_audio_features('43wFM1HquliY3iwKWzPN4y', 'LY_2018')
-    df.to_csv('spotify_signals.csv', index=False)
+album_id = "43wFM1HquliY3iwKWzPN4y"
+
+# fetch all tracks (handle pagination)
+results = sp.album_tracks(album_id)
+tracks = results['items']
+
+while results['next']:
+    results = sp.next(results)
+    tracks.extend(results['items'])
+
+# Extract only metadata
+data = []
+for t in tracks:
+    data.append({
+        "track_name": t['name'],
+        "track_id": t['id'],
+        "duration_ms": t['duration_ms'],
+        "track_number": t['track_number'],
+        "explicit": t['explicit'],
+        "artists": ", ".join([a['name'] for a in t['artists']])
+    })
+
+df = pd.DataFrame(data)
+df.to_csv("spotify_album_metadata.csv", index=False)
+
+
+# test out search markets 
+market_results = sp.search_markets(
+    q="BTS",
+    type="track",
+    limit=5,
+    markets=["BR", "KR", "FR"]
+)
+
+for market, data in market_results.items():
+    print(f"\nMarket: {market}")
+    for track in data['tracks']['items']:
+        print( track['name'],
+              track['album']['name'],
+            track["album"]["release_date"],
+    track["album"]["release_date_precision"],
+     track['is_playable'] )

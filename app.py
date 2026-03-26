@@ -327,7 +327,7 @@ if ly2018 is not None and forecast is not None:
             fig4, ax4 = plt.subplots(figsize=(8, 5))
             colors = plt.cm.Reds(np.linspace(0.4, 0.9, len(surge)))
             bars = ax4.bar(surge['country'], surge['money_flow_surge_pct'], color=colors, edgecolor='white', linewidth=2)
-            ax4.set_title('💳 Private Consumption Velocity Surge (2017→2018)', fontsize=12, fontweight='bold', pad=15)
+            ax4.set_title('Private Consumption Velocity Surge (2017→2018)', fontsize=12, fontweight='bold', pad=15)
             ax4.set_ylabel('Surge Percentage (%)', fontsize=11)
             ax4.set_xlabel('Country', fontsize=11)
             
@@ -373,7 +373,7 @@ if ly2018 is not None and forecast is not None:
                         marker='o', linewidth=3, markersize=12, color='#8B5CF6', 
                         markerfacecolor='#EC489A', markeredgecolor='white', markeredgewidth=2)
                 
-                ax5.set_title('🎯 BTS Contribution to National Tourism Revenue', fontsize=14, fontweight='bold', pad=20)
+                ax5.set_title('BTS Contribution to National Tourism Revenue', fontsize=14, fontweight='bold', pad=20)
                 ax5.set_ylabel('Impact Ratio (%)', fontsize=12)
                 ax5.set_xlabel('Country', fontsize=12)
                 ax5.grid(True, alpha=0.3)
@@ -465,7 +465,7 @@ if ly2018 is not None and forecast is not None:
         
         ax7.set_xlabel('Country', fontsize=12, fontweight='bold')
         ax7.set_ylabel('Attendance', fontsize=12, fontweight='bold')
-        ax7.set_title('👥 Total Attendance Projection', fontsize=14, fontweight='bold', pad=20)
+        ax7.set_title('Total Attendance Projection', fontsize=14, fontweight='bold', pad=20)
         ax7.set_xticks(x)
         ax7.set_xticklabels(countries)
         ax7.legend()
@@ -521,7 +521,7 @@ if ly2018 is not None and forecast is not None:
     
     ax8.set_xlabel('Country', fontsize=12, fontweight='bold')
     ax8.set_ylabel('Growth Percentage (%)', fontsize=12, fontweight='bold')
-    ax8.set_title('🚀 Growth Rate Comparison: 2018 → 2026', fontsize=14, fontweight='bold', pad=20)
+    ax8.set_title('Growth Rate Comparison: 2018 → 2026', fontsize=14, fontweight='bold', pad=20)
     ax8.set_xticks(x)
     ax8.set_xticklabels(countries)
     ax8.legend()

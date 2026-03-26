@@ -6,6 +6,13 @@
 
 ---
 
+## Quick Links
+
+- **Live Dashboard:** https://bts-tour-analysis.streamlit.app  
+- **Full Project Report (PDF):** https://drive.google.com/file/d/1HP0IfKH5IE8qiHnWRKRBjAFKlm6zrIws/view?usp=sharing
+
+---
+
 ## Executive Summary
 
 This project analyzes the global touring ecosystem of BTS using data-driven methods.  

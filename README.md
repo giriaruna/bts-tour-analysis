@@ -9,7 +9,7 @@
 ## Quick Links
 
 - **Live Dashboard:** https://bts-tour-analysis.streamlit.app  
-- **Full Project Report (PDF):** https://drive.google.com/file/d/1HP0IfKH5IE8qiHnWRKRBjAFKlm6zrIws/view?usp=sharing
+- **Full Project Report (PDF):** https://drive.google.com/file/d/1nXyrggsOVTgdfWjW8iTpQSNjrGODw29CJc0sk4ACRfM/view?usp=sharing
 
 ---
 

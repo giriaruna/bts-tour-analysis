@@ -1,31 +1,66 @@
-date,venue,city,country,revenue_usd,era,is_stadium,is_sold_out,year,currency,source,artist
-"August 25-26, 2",Olympic Stadium,Olympic StadiumSeoul,South Korea,852415585366.0,Love Yourself 2018,1,1,2018,USD,TouringData,BTS
-"November 13-14,",Arena,Tokyo DomeTokyo,Japan,927659095939.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"November 21-24,",Arena,Kyocera DomeOsaka,Japan,10601063109679.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"December 8-9, 2",International Baseball Stadium,International Baseball StadiumTaoyuan City,Taiwan,871274850144.0,Love Yourself 2018,1,1,2018,USD,TouringData,BTS
-"January 12-13, ",Arena,Nagoya DomeNagoya,Japan,769256279621.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"January 19, 201",National Stadium,National StadiumSingapore,Singapore,706185439946.0,Love Yourself 2018,1,1,2019,USD,TouringData,BTS
-"February 16-17,",Arena,Yahuoku! DomeFukuoka,Japan,703555772801.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"March 20-24, 20",Arena,AsiaWorld–ArenaHong Kong,Hong Kong,902586046630.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"April 6-7, 2019",Rajamangala Stadium,Rajamangala StadiumBangkok,Thailand,1507036068900.0,Love Yourself 2018,1,0,2019,USD,TouringData,BTS
-"September 5-9, ",Arena,Staples CenterLos Angeles,United States,884724056220.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"September 12, 2",Arena,Oracle ArenaOakland,United States,173775010743.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-September 15-16,Arena,Convention CenterFort Worth,United States,290888017452.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-September 20-23,Arena,FirstOntario CentreHamilton,Canada,495715535574.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-September 28-29,Arena,Prudential CenterNewark,United States,421312025236.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"October 2-3, 20",Arena,United CenterChicago,United States,426496027880.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"October 6, 2018",Arena,Citi FieldNew York,United States,475416834327.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"October 9-10, 2",Arena,O2 ArenaLondon,England,494314031475.0,Love Yourself 2018,0,0,2018,USD,TouringData,BTS
-"October 13, 201",Arena,Ziggo DomeAmsterdam,Netherlands,225097013893.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"October 16-17, ",Arena,Mercedes-Benz ArenaBerlin,Germany,430532924384.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"October 19-20, ",Arena,AccorHotels ArenaParis,France,457917228149.0,Love Yourself 2018,0,1,2018,USD,TouringData,BTS
-"May 4-5, 2019BT",Arena,Rose BowlPasadena,United States,16557515113040.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"May 11-12, 2019",Arena,Soldier FieldChicago,United States,1334579588156.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"May 18-19, 2019",MetLife Stadium,MetLife StadiumEast Rutherford,United States,1405041098574.0,Love Yourself 2018,1,1,2019,USD,TouringData,BTS
-"May 25-26, 2019",Arena,Allianz ParqueSao Paulo,Brazil,771231884728.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"June 1-2, 2019B",Wembley Stadium,Wembley StadiumLondon,England,13545702114583.0,Love Yourself 2018,1,1,2019,USD,TouringData,BTS
-"June 7-8, 2019B",Arena,Stade de FranceParis,France,13728598107328.0,Love Yourself 2018,0,1,2019,USD,TouringData,BTS
-"July 6-7, 2019B",Yanmar Stadium,Yanmar StadiumOsaka,Japan,9832610101554.0,Love Yourself 2018,1,1,2019,USD,TouringData,BTS
-"July 13-14, 201",Shizuoka Stadium,Shizuoka StadiumShizuoka,Japan,10486317107153.0,Love Yourself 2018,1,1,2019,USD,TouringData,BTS
-"October 11, 201",King Fahd Stadium,King Fahd StadiumRiyadh,Saudi Arabia,438156031899.0,Love Yourself 2018,1,0,2019,USD,TouringData,BTS
-"October 26-29, ",Olympic Stadium,Olympic StadiumSeoul,South Korea,12109026129268.0,Love Yourself 2018,1,1,2019,USD,TouringData,BTS
+date,venue,city,country,revenue_usd,era,is_stadium,is_sold_out,artist
+"August 25-26, 2",Olympic Stadium,Olympic StadiumSeoul,South Korea,852415585366.0,2018 Love Yourself,1,1,BTS
+"November 13-14,",Arena,Tokyo DomeTokyo,Japan,927659095939.0,2018 Love Yourself,0,1,BTS
+"November 21-24,",Arena,Kyocera DomeOsaka,Japan,10601063109679.0,2018 Love Yourself,0,1,BTS
+"December 8-9, 2",International Baseball Stadium,International Baseball StadiumTaoyuan City,Taiwan,871274850144.0,2018 Love Yourself,1,1,BTS
+"January 12-13, ",Arena,Nagoya DomeNagoya,Japan,769256279621.0,2018 Love Yourself,0,1,BTS
+"January 19, 201",National Stadium,National StadiumSingapore,Singapore,706185439946.0,2018 Love Yourself,1,1,BTS
+"February 16-17,",Arena,Yahuoku! DomeFukuoka,Japan,703555772801.0,2018 Love Yourself,0,1,BTS
+"March 20-24, 20",Arena,AsiaWorld–ArenaHong Kong,Hong Kong,902586046630.0,2018 Love Yourself,0,1,BTS
+"April 6-7, 2019",Rajamangala Stadium,Rajamangala StadiumBangkok,Thailand,1507036068900.0,2018 Love Yourself,1,0,BTS
+"September 5-9, ",Arena,Staples CenterLos Angeles,United States,884724056220.0,2018 Love Yourself,0,1,BTS
+"September 12, 2",Arena,Oracle ArenaOakland,United States,173775010743.0,2018 Love Yourself,0,1,BTS
+September 15-16,Arena,Convention CenterFort Worth,United States,290888017452.0,2018 Love Yourself,0,1,BTS
+September 20-23,Arena,FirstOntario CentreHamilton,Canada,495715535574.0,2018 Love Yourself,0,1,BTS
+September 28-29,Arena,Prudential CenterNewark,United States,421312025236.0,2018 Love Yourself,0,1,BTS
+"October 2-3, 20",Arena,United CenterChicago,United States,426496027880.0,2018 Love Yourself,0,1,BTS
+"October 6, 2018",Arena,Citi FieldNew York,United States,475416834327.0,2018 Love Yourself,0,1,BTS
+"October 9-10, 2",Arena,O2 ArenaLondon,England,494314031475.0,2018 Love Yourself,0,0,BTS
+"October 13, 201",Arena,Ziggo DomeAmsterdam,Netherlands,225097013893.0,2018 Love Yourself,0,1,BTS
+"October 16-17, ",Arena,Mercedes-Benz ArenaBerlin,Germany,430532924384.0,2018 Love Yourself,0,1,BTS
+"October 19-20, ",Arena,AccorHotels ArenaParis,France,457917228149.0,2018 Love Yourself,0,1,BTS
+"May 4-5, 2019BT",Arena,Rose BowlPasadena,United States,16557515113040.0,2018 Love Yourself,0,1,BTS
+"May 11-12, 2019",Arena,Soldier FieldChicago,United States,1334579588156.0,2018 Love Yourself,0,1,BTS
+"May 18-19, 2019",MetLife Stadium,MetLife StadiumEast Rutherford,United States,1405041098574.0,2018 Love Yourself,1,1,BTS
+"May 25-26, 2019",Arena,Allianz ParqueSao Paulo,Brazil,771231884728.0,2018 Love Yourself,0,1,BTS
+"June 1-2, 2019B",Wembley Stadium,Wembley StadiumLondon,England,13545702114583.0,2018 Love Yourself,1,1,BTS
+"June 7-8, 2019B",Arena,Stade de FranceParis,France,13728598107328.0,2018 Love Yourself,0,1,BTS
+"July 6-7, 2019B",Yanmar Stadium,Yanmar StadiumOsaka,Japan,9832610101554.0,2018 Love Yourself,1,1,BTS
+"July 13-14, 201",Shizuoka Stadium,Shizuoka StadiumShizuoka,Japan,10486317107153.0,2018 Love Yourself,1,1,BTS
+"October 11, 201",King Fahd Stadium,King Fahd StadiumRiyadh,Saudi Arabia,438156031899.0,2018 Love Yourself,1,0,BTS
+"October 26-29, ",Olympic Stadium,Olympic StadiumSeoul,South Korea,12109026129268.0,2018 Love Yourself,1,1,BTS
+ARIRANG(2026-27,Arena,Unknown,Unknown,23867634.0,2026 Arirang,0,0,BTS
+"April 9-12, 202",Goyang Stadium,Goyang StadiumGoyang,South Korea,23867634.0,2026 Arirang,1,0,BTS
+"April 17-18, 20",Arena,Tokyo DomeTokyo,Japan,23867634.0,2026 Arirang,0,0,BTS
+"June 13-14, 202",Arena,TBABusan,South Korea,23867634.0,2026 Arirang,0,0,BTS
+"November 19-22,",Arena,TBAKaohsiung,Taiwan,23867634.0,2026 Arirang,0,0,BTS
+"December 3-6, 2",Arena,TBABangkok,Thailand,23867634.0,2026 Arirang,0,0,BTS
+"December 12-13,",Arena,TBAKuala Lumpur,Malaysia,23867634.0,2026 Arirang,0,0,BTS
+"December 17-22,",Arena,TBASingapore,Singapore,23867634.0,2026 Arirang,0,0,BTS
+"December 26-27,",Arena,TBAJakarta,Indonesia,23867634.0,2026 Arirang,0,0,BTS
+"March 4-7, 2027",Arena,TBAHong Kong,Hong Kong,23867634.0,2026 Arirang,0,0,BTS
+"March 13-14, 20",Arena,TBAManila,Philippines,23867634.0,2026 Arirang,0,0,BTS
+"April 25-26, 20",Raymond James Stadium,Raymond James StadiumTampa,United States,23867634.0,2026 Arirang,1,0,BTS
+"May 2-3, 2026BT",Arena,Sun BowlEl Paso,United States,23867634.0,2026 Arirang,0,0,BTS
+"May 16-17, 2026",Stanford Stadium,Stanford StadiumStanford,United States,23867634.0,2026 Arirang,1,0,BTS
+"May 23-27, 2026",Allegiant Stadium,Allegiant StadiumLas Vegas,United States,23867634.0,2026 Arirang,1,0,BTS
+"August 1-2, 202",MetLife Stadium,MetLife StadiumEast Rutherford,United States,23867634.0,2026 Arirang,1,0,BTS
+"August 5-6, 202",Gillette Stadium,Gillette StadiumFoxborough,United States,23867634.0,2026 Arirang,1,0,BTS
+"August 10-11, 2",M&T Bank Stadium,M&T Bank StadiumBaltimore,United States,23867634.0,2026 Arirang,1,0,BTS
+"August 15-16, 2",AT&T Stadium,AT&T StadiumArlington,United States,23867634.0,2026 Arirang,1,0,BTS
+"August 22-23, 2",Rogers Stadium,Rogers StadiumToronto,Canada,23867634.0,2026 Arirang,1,0,BTS
+"August 27-28, 2",Arena,Soldier FieldChicago,United States,23867634.0,2026 Arirang,0,0,BTS
+"September 1-6, ",SoFi Stadium,SoFi StadiumInglewood,United States,23867634.0,2026 Arirang,1,0,BTS
+"May 7-10, 2026B",Arena,Estadio GNP SegurosMexico City,Mexico,23867634.0,2026 Arirang,0,0,BTS
+"October 2-3, 20",Arena,TBABogotá,Colombia,23867634.0,2026 Arirang,0,0,BTS
+"October 9-10, 2",Arena,TBALima,Peru,23867634.0,2026 Arirang,0,0,BTS
+"October 16-17, ",Arena,TBASantiago,Chile,23867634.0,2026 Arirang,0,0,BTS
+"October 23-24, ",Arena,TBABuenos Aires,Argentina,23867634.0,2026 Arirang,0,0,BTS
+"October 28-31, ",Arena,TBASão Paulo,Brazil,23867634.0,2026 Arirang,0,0,BTS
+"June 26-27, 202",Arena,Estadio MetropolitanoMadrid,Spain,23867634.0,2026 Arirang,0,0,BTS
+"July 1-2, 2026B",Arena,Stade Roi BaudouinBrussels,Belgium,23867634.0,2026 Arirang,0,0,BTS
+"July 6-7, 2026B",Tottenham Hotspur Stadium,Tottenham Hotspur StadiumLondon,England,23867634.0,2026 Arirang,1,0,BTS
+"July 11-12, 202",Arena,Allianz ArenaMunich,Germany,23867634.0,2026 Arirang,0,0,BTS
+"July 17-18, 202",Arena,Stade de FranceParis,France,23867634.0,2026 Arirang,0,0,BTS
+"February 12-13,",Arena,TBAMelbourne,Australia,23867634.0,2026 Arirang,0,0,BTS
+"February 20-21,",Arena,TBASydney,Australia,23867634.0,2026 Arirang,0,0,BTS

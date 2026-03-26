@@ -1,35 +1,35 @@
 date,venue,city,country,revenue_usd,era,is_projected,is_stadium,is_sold_out,source,artist,currency,market_size
-"April 9-12, 202",Goyang Stadium,Goyang StadiumGoyang,South Korea,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"April 17-18, 20",Arena,Tokyo DomeTokyo,Japan,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"June 13-14, 202",Arena,TBABusan,South Korea,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"November 19-22,",Arena,TBAKaohsiung,Taiwan,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"December 3-6, 2",Arena,TBABangkok,Thailand,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"December 12-13,",Arena,TBAKuala Lumpur,Malaysia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"December 17-22,",Arena,TBASingapore,Singapore,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"December 26-27,",Arena,TBAJakarta,Indonesia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"March 4-7, 2027",Arena,TBAHong Kong,Hong Kong,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"March 13-14, 20",Arena,TBAManila,Philippines,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"April 25-26, 20",Raymond James Stadium,Raymond James StadiumTampa,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"May 2-3, 2026BT",Arena,Sun BowlEl Paso,United States,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"May 16-17, 2026",Stanford Stadium,Stanford StadiumStanford,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"May 23-27, 2026",Allegiant Stadium,Allegiant StadiumLas Vegas,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"August 1-2, 202",MetLife Stadium,MetLife StadiumEast Rutherford,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"August 5-6, 202",Gillette Stadium,Gillette StadiumFoxborough,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"August 10-11, 2",M&T Bank Stadium,M&T Bank StadiumBaltimore,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"August 15-16, 2",AT&T Stadium,AT&T StadiumArlington,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"August 22-23, 2",Rogers Stadium,Rogers StadiumToronto,Canada,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"August 27-28, 2",Arena,Soldier FieldChicago,United States,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"September 1-6, ",SoFi Stadium,SoFi StadiumInglewood,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"May 7-10, 2026B",Arena,Estadio GNP SegurosMexico City,Mexico,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"October 2-3, 20",Arena,TBABogotá,Colombia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"October 9-10, 2",Arena,TBALima,Peru,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"October 16-17, ",Arena,TBASantiago,Chile,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"October 23-24, ",Arena,TBABuenos Aires,Argentina,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"October 28-31, ",Arena,TBASão Paulo,Brazil,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"June 26-27, 202",Arena,Estadio MetropolitanoMadrid,Spain,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"July 1-2, 2026B",Arena,Stade Roi BaudouinBrussels,Belgium,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"July 6-7, 2026B",Tottenham Hotspur Stadium,Tottenham Hotspur StadiumLondon,England,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
-"July 11-12, 202",Arena,Allianz ArenaMunich,Germany,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"July 17-18, 202",Arena,Stade de FranceParis,France,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"February 12-13,",Arena,TBAMelbourne,Australia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
-"February 20-21,",Arena,TBASydney,Australia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"April 9-12, 2026",Goyang Stadium,Goyang,South Korea,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"April 17-18, 2026",Tokyo DomeTokyo,Japan,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"June 13-14, 2026",TBA,Busan,South Korea,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"November 19-22,2026",TBA,Kaohsiung,Taiwan,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"December 3-6, 2026",TBA,Bangkok,Thailand,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"December 12-13,2026",TBA,Kuala Lumpur,Malaysia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"December 17-22,2026",TBA,Singapore,Singapore,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"December 26-27,2026",TBA,Jakarta,Indonesia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"March 4-7, 2027",TBA,Hong Kong,Hong Kong,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"March 13-14, 2027",TBA,Manila,Philippines,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"April 25-26, 2026",Raymond James Stadium,Tampa,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"May 2-3, 2026",Sun Bowl,El Paso,United States,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"May 16-17, 2026",Stanford Stadium,Stanford,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"May 23-27, 2026",Allegiant Stadium,Las Vegas,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"August 1-2, 2026",MetLife Stadium,East Rutherford,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"August 5-6, 2026",Gillette Stadium,Foxborough,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"August 10-11, 2026",M&T Bank Stadium,Baltimore,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"August 15-16, 2026",AT&T Stadium,Arlington,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"August 22-23, 2026",Rogers Stadium,Toronto,Canada,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"August 27-28, 2026",Soldier Field,Chicago,United States,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"September 1-6, 2026",SoFi Stadium,Inglewood,United States,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"May 7-10, 2026",Estadio GNP Seguros,Mexico City,Mexico,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"October 2-3, 2026",TBA,Bogotá,Colombia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"October 9-10, 2026",TBA,Lima,Peru,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"October 16-17, 2026",TBA,Santiago,Chile,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"October 23-24, 2026",TBA,Buenos Aires,Argentina,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"October 28-31, 2026",TBA,São Paulo,Brazil,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"June 26-27, 2026",Estadio Metropolitano,Madrid,Spain,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"July 1-2, 2026",Stade Roi Baudouin,Brussels,Belgium,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"July 6-7, 2026",Tottenham Hotspur Stadium,London,England,0.0,2026 Arirang,1,1,0,TouringData,BTS,USD,Large
+"July 11-12, 2026",Allianz Arena,Munich,Germany,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"July 17-18, 2026",Stade de France,Paris,France,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"February 12-13, 2027",TBA,Melbourne,Australia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium
+"February 20-21, 2027",TBA,Sydney,Australia,0.0,2026 Arirang,1,0,0,TouringData,BTS,USD,Medium

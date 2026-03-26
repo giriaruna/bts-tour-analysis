@@ -1,31 +1,31 @@
-date,venue,city,country,revenue_usd,era,is_projected,is_stadium,is_sold_out,source,artist,currency,market_size
-"August 25-26, 2",Olympic Stadium,Olympic StadiumSeoul,South Korea,852415585366.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"November 13-14,",Arena,Tokyo DomeTokyo,Japan,927659095939.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"November 21-24,",Arena,Kyocera DomeOsaka,Japan,10601063109679.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"December 8-9, 2",International Baseball Stadium,International Baseball StadiumTaoyuan City,Taiwan,871274850144.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"January 12-13, ",Arena,Nagoya DomeNagoya,Japan,769256279621.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"January 19, 201",National Stadium,National StadiumSingapore,Singapore,706185439946.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"February 16-17,",Arena,Yahuoku! DomeFukuoka,Japan,703555772801.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"March 20-24, 20",Arena,AsiaWorld–ArenaHong Kong,Hong Kong,902586046630.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"April 6-7, 2019",Rajamangala Stadium,Rajamangala StadiumBangkok,Thailand,1507036068900.0,2018 Love Yourself,0,1,0,TouringData,BTS,USD,Large
-"September 5-9, ",Arena,Staples CenterLos Angeles,United States,884724056220.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"September 12, 2",Arena,Oracle ArenaOakland,United States,173775010743.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-September 15-16,Arena,Convention CenterFort Worth,United States,290888017452.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-September 20-23,Arena,FirstOntario CentreHamilton,Canada,495715535574.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-September 28-29,Arena,Prudential CenterNewark,United States,421312025236.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"October 2-3, 20",Arena,United CenterChicago,United States,426496027880.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"October 6, 2018",Arena,Citi FieldNew York,United States,475416834327.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"October 9-10, 2",Arena,O2 ArenaLondon,England,494314031475.0,2018 Love Yourself,0,0,0,TouringData,BTS,USD,Medium
-"October 13, 201",Arena,Ziggo DomeAmsterdam,Netherlands,225097013893.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"October 16-17, ",Arena,Mercedes-Benz ArenaBerlin,Germany,430532924384.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"October 19-20, ",Arena,AccorHotels ArenaParis,France,457917228149.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"May 4-5, 2019BT",Arena,Rose BowlPasadena,United States,16557515113040.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"May 11-12, 2019",Arena,Soldier FieldChicago,United States,1334579588156.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"May 18-19, 2019",MetLife Stadium,MetLife StadiumEast Rutherford,United States,1405041098574.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"May 25-26, 2019",Arena,Allianz ParqueSao Paulo,Brazil,771231884728.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"June 1-2, 2019B",Wembley Stadium,Wembley StadiumLondon,England,13545702114583.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"June 7-8, 2019B",Arena,Stade de FranceParis,France,13728598107328.0,2018 Love Yourself,0,0,1,TouringData,BTS,USD,Medium
-"July 6-7, 2019B",Yanmar Stadium,Yanmar StadiumOsaka,Japan,9832610101554.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"July 13-14, 201",Shizuoka Stadium,Shizuoka StadiumShizuoka,Japan,10486317107153.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
-"October 11, 201",King Fahd Stadium,King Fahd StadiumRiyadh,Saudi Arabia,438156031899.0,2018 Love Yourself,0,1,0,TouringData,BTS,USD,Large
-"October 26-29, ",Olympic Stadium,Olympic StadiumSeoul,South Korea,12109026129268.0,2018 Love Yourself,0,1,1,TouringData,BTS,USD,Large
+date,venue,city,country,revenue_usd,era,is_projected,is_stadium,is_sold_out,source
+"August 25-26, 2018",Olympic Stadium,Seoul,South Korea,852415585366.0,2018 Love Yourself,0,1,1,TouringData
+"November 13-14, 2018",Tokyo Dome,Tokyo,Japan,927659095939.0,2018 Love Yourself,0,1,1,TouringData
+"November 21-24, 2018",Kyocera Dome,Osaka,Japan,10601063109679.0,2018 Love Yourself,0,1,1,TouringData
+"December 8-9, 2018",International Baseball Stadium,Taoyuan City,Taiwan,871274850144.0,2018 Love Yourself,0,1,1,TouringData
+"January 12-13, 2019",Nagoya Dome,Nagoya,Japan,769256279621.0,2018 Love Yourself,0,1,1,TouringData
+"January 19, 2019",National Stadium,Singapore,Singapore,706185439946.0,2018 Love Yourself,0,1,1,TouringData
+"February 16-17, 2019",Yahuoku! Dome,Fukuoka,Japan,703555772801.0,2018 Love Yourself,0,1,1,TouringData
+"March 20-24, 2019",AsiaWorld–Arena,Hong Kong,Hong Kong,902586046630.0,2018 Love Yourself,0,0,1,TouringData
+"April 6-7, 2019",Rajamangala Stadium,Bangkok,Thailand,1507036068900.0,2018 Love Yourself,0,1,0,TouringData
+"September 5-9, 2018",Staples Center,Los Angeles,United States,884724056220.0,2018 Love Yourself,0,0,1,TouringData
+"September 12, 2018",Oracle Arena,Oakland,United States,173775010743.0,2018 Love Yourself,0,0,1,TouringData
+"September 15-16, 2018",Convention Center,Fort Worth,United States,290888017452.0,2018 Love Yourself,0,0,1,TouringData
+"September 20-23, 2018",FirstOntario Centre,Hamilton,Canada,495715535574.0,2018 Love Yourself,0,0,1,TouringData
+"September 28-29, 2018",Prudential Center,Newark,United States,421312025236.0,2018 Love Yourself,0,0,1,TouringData
+"October 2-3, 2018",United Center,Chicago,United States,426496027880.0,2018 Love Yourself,0,0,1,TouringData
+"October 6, 2018",Citi Field,New York,United States,475416834327.0,2018 Love Yourself,0,0,1,TouringData
+"October 9-10, 2018",O2 Arena,London,England,494314031475.0,2018 Love Yourself,0,0,0,TouringData
+"October 13, 2018",Ziggo Dome,Amsterdam,Netherlands,225097013893.0,2018 Love Yourself,0,1,1,TouringData
+"October 16-17, 2018",Mercedes-Benz Arena,Berlin,Germany,430532924384.0,2018 Love Yourself,0,0,1,TouringData
+"October 19-20, 2018",AccorHotels Arena,Paris,France,457917228149.0,2018 Love Yourself,0,0,1,TouringData
+"May 4-5, 2019",Rose Bowl,Pasadena,United States,16557515113040.0,2018 Love Yourself,0,0,1,TouringData
+"May 11-12, 2019",Soldier Field,Chicago,United States,1334579588156.0,2018 Love Yourself,0,0,1,TouringData
+"May 18-19, 2019",MetLife Stadium,East Rutherford,United States,1405041098574.0,2018 Love Yourself,0,1,1,TouringData
+"May 25-26, 2019",Allianz Parque,Sao Paulo,Brazil,771231884728.0,2018 Love Yourself,0,0,1,TouringData
+"June 1-2, 2019",Wembley Stadium,London,England,13545702114583.0,2018 Love Yourself,0,1,1,TouringData
+"June 7-8, 2019",Stade de France,Paris,France,13728598107328.0,2018 Love Yourself,0,0,1,TouringData
+"July 6-7, 2019",Yanmar Stadium,Osaka,Japan,9832610101554.0,2018 Love Yourself,0,1,1,TouringData
+"July 13-14, 2019",Shizuoka Stadium,Shizuoka,Japan,10486317107153.0,2018 Love Yourself,0,1,1,TouringData
+"October 11, 2019",King Fahd Stadium,Riyadh,Saudi Arabia,438156031899.0,2018 Love Yourself,0,1,0,TouringData
+"October 26-29, 2019",Olympic Stadium,Seoul,South Korea,12109026129268.0,2018 Love Yourself,0,1,1,TouringData

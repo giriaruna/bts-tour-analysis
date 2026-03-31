@@ -24,7 +24,7 @@ import numpy as np
 
 # Page Configuration
 st.set_page_config(
-    page_title="BTS: The Quantum Leap | Group 2", 
+    page_title="BTS: The Quantum Leap ", 
     layout="wide",
     page_icon="💜"
 )
@@ -161,11 +161,11 @@ def load_all_data():
         return ly2018, a2026, surge, forecast
     
     except FileNotFoundError as e:
-        st.error(f"⚠️ Missing data file: {e.filename}")
+        st.error(f" Missing data file: {e.filename}")
         st.info("Please ensure all CSV files are in the same directory as this script.")
         return None, None, None, None
     except Exception as e:
-        st.error(f"⚠️ Error loading data: {e}")
+        st.error(f" Error loading data: {e}")
         return None, None, None, None
 
 # Load data
@@ -180,7 +180,7 @@ if ly2018 is not None and forecast is not None:
     # Group Badge with Names
     st.markdown("""
     <div class='group-badge'>
-        <b>👥 GROUP 2 | DATA BOOTCAMP | BTS Tour Economic Analysis</b><br>
+        <b> DATA BOOTCAMP | BTS Tour Economic Analysis</b><br>
         <span style='font-size: 0.9rem;'>Team Members: Aruna Giri, Jane Manalu, KJ Moses | Date: March 2026</span>
     </div>
     """, unsafe_allow_html=True)
@@ -633,7 +633,7 @@ if ly2018 is not None and forecast is not None:
             </tr>
             <tr>
                 <td> ARUNA GIRI <br> JANE MANALU <br>KJ MOSES</td>
-                <td>Data Bootcamp<br>Group 2</td>
+                <td>Data Bootcamp<br> </td>
                 <td>March 2026</td>
             </tr>
         </table>
